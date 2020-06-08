@@ -40,7 +40,7 @@
         "symfony/debug": "2.7.*",
         "symfony/dom-crawler": "2.7.*",
         "symfony/finder": "2.7.*",
-        "symfony/http-foundation": "dev-2.7.blokks as 2.7",
+        "symfony/http-foundation": "dev-2.7.blokks",
         "symfony/http-kernel": "2.7.*",
         "symfony/process": "2.7.*",
         "symfony/routing": "2.7.*",
