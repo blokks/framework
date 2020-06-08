@@ -146,7 +146,7 @@ class EncryptCookies
     {
         return new Cookie(
             $c->getName(), $value, $c->getExpiresTime(), $c->getPath(),
-            $c->getDomain(), $c->isSecure(), $c->isHttpOnly()
+            $c->getDomain(), $c->getSameSite(), $c->isSecure(), $c->isHttpOnly()
         );
     }
 

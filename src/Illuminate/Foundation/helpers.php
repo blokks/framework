@@ -193,7 +193,7 @@ if (! function_exists('cookie')) {
      * @param  bool    $httpOnly
      * @return \Symfony\Component\HttpFoundation\Cookie
      */
-    function cookie($name = null, $value = null, $minutes = 0, $path = null, $domain = null, $secure = false, $httpOnly = true)
+    function cookie($name = null, $value = null, $minutes = 0, $path = null, $domain = null, $sameSite = null, $secure = false, $httpOnly = true)
     {
         $cookie = app(CookieFactory::class);
 
@@ -201,7 +201,7 @@ if (! function_exists('cookie')) {
             return $cookie;
         }
 
-        return $cookie->make($name, $value, $minutes, $path, $domain, $secure, $httpOnly);
+        return $cookie->make($name, $value, $minutes, $path, $domain, $sameSite, $secure, $httpOnly);
     }
 }
 

@@ -14,6 +14,12 @@
             "email": "taylorotwell@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/blokks/http-foundation/"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "ext-mbstring": "*",
@@ -89,7 +95,8 @@
             "src/Illuminate/Support/helpers.php"
         ],
         "psr-4": {
-            "Illuminate\\": "src/Illuminate/"
+            "Illuminate\\": "src/Illuminate/",
+            "Symfony\\Component\\HttpFoundation\\": "src/http-foundation/"
         }
     },
     "extra": {
