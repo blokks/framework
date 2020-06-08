@@ -17,7 +17,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/blokks/http-foundation/"
+            "url": "https://github.com/blokks/http-foundation"
         }
     ],
     "require": {
@@ -40,7 +40,7 @@
         "symfony/debug": "2.7.*",
         "symfony/dom-crawler": "2.7.*",
         "symfony/finder": "2.7.*",
-        "symfony/http-foundation": "dev-2.7.blokks",
+        "symfony/http-foundation": "2.7.*",
         "symfony/http-kernel": "2.7.*",
         "symfony/process": "2.7.*",
         "symfony/routing": "2.7.*",
